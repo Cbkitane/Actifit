@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+:root {
+    --color-1: #bbc3c7;
+    --color-2: #0f2224;
+    --color-3: #58767c;
+    --color-4: #7f989e;
+    --color-5: #204d56;
+    --color-6: #a44c34;
+    --color-7: #604035;
+    --color-8: #4d6752;
+    --color-9: #7e9c94;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* CSS for pagination links */
+.my-custom-pagination .pagination-link {
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+/* CSS for the active page */
+.my-custom-pagination .current-page strong {
+    font-weight: bold;
+}
